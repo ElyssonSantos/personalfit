@@ -1,3 +1,17 @@
+import musculacaoVid from '../conteudos/musculacao.mp4';
+import funcionalVid from '../conteudos/funcional.mp4';
+import boxeVid from '../conteudos/boxe.mp4';
+import jiujitsuVid from '../conteudos/jiujitsu.mp4';
+import pilatesVid from '../conteudos/pilates.mp4';
+import ritmosVid from '../conteudos/ritmos.mp4';
+import patrimonioImg1 from '../conteudos/patrimonio.jpg';
+import patrimonioImg2 from '../conteudos/patrimonio2.jpg';
+import investimentoImg1 from '../conteudos/investimento.jpg';
+import investimentoImg2 from '../conteudos/investimento2.jpg';
+import voceecapazImg from '../conteudos/voceecapaz.jpg';
+import treinofeitoImg from '../conteudos/treinofeito.jpg';
+import constanciaVid from '../conteudos/constancia.mp4';
+
 export const gymData = {
   numbers: [
     { label: "ALUNOS", value: "+2.000", icon: "users" },
@@ -6,12 +20,12 @@ export const gymData = {
     { label: "DE FUNCIONAMENTO", value: "24H", icon: "clock" },
   ],
   modalities: [
-    { id: 1, name: "MUSCULAÇÃO", desc: "Força, condicionamento e evolução.", image: "/src/conteudos/musculacao.mp4" },
-    { id: 2, name: "FUNCIONAL", desc: "Agilidade, mobilidade e condicionamento.", image: "/src/conteudos/funcional.mp4" },
-    { id: 3, name: "MUAY THAI", desc: "Técnica, condicionamento e disciplina.", image: "/src/conteudos/boxe.mp4" },
-    { id: 4, name: "JIU-JITSU", desc: "Técnica, defesa pessoal e superação.", image: "/src/conteudos/jiujitsu.mp4" },
-    { id: 5, name: "PILATES", desc: "Controle, mobilidade e consciência corporal.", image: "/src/conteudos/pilates.mp4" },
-    { id: 6, name: "RITMOS", desc: "Energia, música e muita dança.", image: "/src/conteudos/ritmos.mp4" },
+    { id: 1, name: "MUSCULAÇÃO", desc: "Força, condicionamento e evolução.", image: musculacaoVid },
+    { id: 2, name: "FUNCIONAL", desc: "Agilidade, mobilidade e condicionamento.", image: funcionalVid },
+    { id: 3, name: "MUAY THAI", desc: "Técnica, condicionamento e disciplina.", image: boxeVid },
+    { id: 4, name: "JIU-JITSU", desc: "Técnica, defesa pessoal e superação.", image: jiujitsuVid },
+    { id: 5, name: "PILATES", desc: "Controle, mobilidade e consciência corporal.", image: pilatesVid },
+    { id: 6, name: "RITMOS", desc: "Energia, música e muita dança.", image: ritmosVid },
   ],
   objectives: [
     {
@@ -146,7 +160,7 @@ export const gymData = {
       date: "06 Out 2026",
       description: "Sua saúde é o seu maior patrimônio. Cuidar do corpo hoje é investir em mais qualidade de vida amanhã.",
       images: [
-        "/src/conteudos/patrimonio.jpg", "/src/conteudos/patrimonio2.jpg"
+        patrimonioImg1, patrimonioImg2
       ],
       video: null,
       featured: true,
@@ -159,7 +173,7 @@ export const gymData = {
       date: "06 Out 2026",
       description: "Entenda a importância da proteína para seus músculos e como calcular a quantidade ideal diária.",
       images: [
-        "/src/conteudos/investimento.jpg", "/src/conteudos/investimento2.jpg"
+        investimentoImg1, investimentoImg2
       ],
       video: null,
       featured: false,
@@ -172,7 +186,7 @@ export const gymData = {
       date: "06 Out 2026",
       description: "Devido ao feriado, nossas unidades funcionarão em horários diferenciados.",
       images: [
-        "/src/conteudos/voceecapaz.jpg"
+        voceecapazImg
       ],
       video: null,
       featured: false,
@@ -185,7 +199,7 @@ export const gymData = {
       date: "06 Out 2026",
       description: "A semana foi intensa, mas você não desistiu e venceu. Cada suor derramado hoje é um passo a mais em direção ao corpo e à saúde que você deseja.",
       images: [
-        "/src/conteudos/treinofeito.jpg"
+        treinofeitoImg
       ],
       video: null,
       featured: false,
@@ -198,7 +212,7 @@ export const gymData = {
       date: "06 Out 2026",
       description: "Não deixe a preguiça vencer. Continue com seus treinos e alcance seus objetivos!",
       images: [
-        "/src/conteudos/constancia.mp4"
+        constanciaVid
       ],
       video: null,
       featured: false,

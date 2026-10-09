@@ -1,9 +1,10 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
 import AnimatedSectionTitle from './AnimatedSectionTitle';
+import heroVideo from '../conteudos/hero.mp4';
 
 const Hero = () => {
-  const videoBackground = "/src/conteudos/hero.mp4";
+  const videoBackground = heroVideo;
 
   return (
     <section id="inicio" className="hero">
