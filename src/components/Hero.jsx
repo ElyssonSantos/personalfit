@@ -6,21 +6,24 @@ import heroVideo from '../conteudos/hero.mp4';
 const Hero = () => {
   const videoBackground = heroVideo;
 
+  const fallbackImage = "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=2070&auto=format&fit=crop";
+
   return (
     <section id="inicio" className="hero">
       {videoBackground ? (
         <video
           src={videoBackground}
+          poster={fallbackImage}
           autoPlay
           loop
           muted
           playsInline
           className="hero-bg"
-          style={{ objectFit: 'cover' }}
+          style={{ objectFit: 'cover', objectPosition: 'center' }}
         />
       ) : (
         <img
-          src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=2070&auto=format&fit=crop"
+          src={fallbackImage}
           alt="Academia Personal Fit"
           className="hero-bg"
         />
